@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { View, Text, TextInput, Button, FlatList, SafeAreaView, TouchableOpacity } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 
-const API = 'http://localhost:3000'; // Remplacer par l'URL Render en prod
+const API = const API = 'https://ton-backend.onrender.com';
 
 // --- Simple store (in-app) ---
 const Store = React.createContext({});
