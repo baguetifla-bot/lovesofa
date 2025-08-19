@@ -10,3 +10,10 @@
     "cors": "^2.8.5"
   }
 }
+{
+  "dependencies": {
+    // Tes anciennes dépendances restent ici !
+    "@react-navigation/native": "^6.1.0",
+    "socket.io": "^4.7.2"
+  }
+}
